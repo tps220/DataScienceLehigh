@@ -6,24 +6,33 @@ In the last ten years, data science has become an integral part of business. Tec
 
 ### ––– Structure –––
 The club will have a team-oriented and flexible structure, run by discrete sets of individuals working together through a common interest rather than a powerful executive board. The breakdown of membership and the types of projects envisioned are described below, from entry to advanced members:
-Entry Level
-	True Data Science Track
+
+#### Entry Level
+
+True Data Science Track
+
 1.	Follow a crash course on computer science if not familiar with the fundamentals; resources for learning and the steps to become proficient in basic computer science will be provided in a Readme on github
 2.	If already familiar with computer science fundamentals, skip step 1 and learn python through example problems, in-depth File I/O learning modules, and other resources posted on the website
 3.	Learn data science with python, utilizing the extensive libraries that simplify the process of filtering and presenting graphs
+
 Business Analytics Only Track
+
 1.	Learn tableau and advanced excel features
 2.	Learn how to pull in data from an SQL database through a GUI application or import massive data sets created/found by other team members
 
 The rest is taught through project experience overtime and how much extra effort the individual wants to put into their tasks. From financial modeling to training scientific data sets to predict a future outcome, there are a number of advanced topics that individuals will be able to learn through their own will-power and university resources. There will be a ton of information posted in a well-formatted file base with extensive documentation to help individuals tackle problems, and this file base will be updated as the club progresses.
-Member Level
+
+#### Member Level
+
 1.	Join an area that interests you, or create a new area of research that interests you
 2.	Begin working in a team, learning skills as you progress through projects 
 3.	After finishing a project, members of the team must create a report and give a thorough presentation to the club for feedback. The type of presentation depends on the domain of the problem, but will typically involve a normal case study, scientific analysis, or financial modeling format. The report will be posted on the website for student recognition and additional learning resources.
  
 The most important part comes at the end, where members of the group are expected to ask questions which will lead the team to the following types of questions:
 If you want to continue the current project, what does the data and your analysis mean for the next step in researching? How can the group use the techniques from this project in the future?
-Executive Level
+
+#### Executive Level
+
 1.	The executive team is a very small group of individuals that deal with the management level of the club. Their only jobs include interacting with the school and companies, recruiting fellow Lehigh students and handling acceptance into the club, scheduling events for the club, and any other trivial tasks. The core focus of this club is not on an executive position. The executives’ main goal is to provide more resources for members and help provide better content for teams.
 
 
@@ -34,7 +43,7 @@ The projects will be determined or accepted by members in teams that want to pur
 
 
 ## New Members
-### Onboarding to the Team
+### –––Onboarding to the Team–––
 
 ### Data Science Track
 #### Intro
@@ -68,7 +77,7 @@ Now that you’ve finished learning Python, it’s time to start getting into da
 
 
 ## Club Resources
-### Data Sets
+### –––Data Sets–––
 Finding a good dataset comes down to a thorough Google search! Here are two sets of examples
 
 #### Best Places To Search For Data Sets
