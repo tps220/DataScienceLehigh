@@ -69,7 +69,7 @@ Learn how to run a script for now with the GUI, the command line will become han
 Once you’ve run out of time, have completed a course, or already know computer science and just want to learn more about Python, use https://www.learnpython.org/ and https://www.tutorialspoint.com/python3/index.htm as references for syntax and fundamental computer science ideas. 
 
 #### Assignemnts
-There are five assignments we want entry members on the data science track to complete to prove their ability. The five assignments can be found in the onboarding folder under Challenges. Once these assignments are completed correctly, a member of the team will review your progress and provide you feedback. If the programs meet the expectations of the reviewer, congratulations you’ve finished learning Python and the fundamentals of computer science in an extremely short amount of time. If you want to get even better at computer science, we have provided more practice problems and ideas under the Learn More folder. We want the members to continue to add resources under this folder, so if you learn something not already in the folder on your own, please type up a summary. We ask the summary has a tutorial and/or a link to the resource used, and that you share it with someone on the executive committee so that we can push it to the database for other members. This club is driven by the collective learning and experiences of the members, and will continue to grow through you!
+There are five assignments we want entry members on the data science track to complete to test their skills. The five assignments can be found in the Assignments folder. Once these assignments are completed correctly, a member of the team will review your code and provide you feedback. If the programs meet the expectations of the reviewer, congratulations you’ve finished our onboarding process, learned Python, and are familiar with the fundamentals of computer science. If you want to get even better at computer science, we have provided more practice problems and ideas under the Learn More folder. We want the members to continue to add resources under this folder, so if you learn something not already in the folder on your own, please type up a summary. We ask the summary has a tutorial and/or a link to the resource used, and that you share it with someone on the executive committee so that we can push it to the database for other members. This club is driven by the collective learning and experiences of the members, and will continue to grow through you!
 
 #### Joining a team
 Now that you’ve finished learning Python, it’s time to start getting into data science. Join one of the teams working in a discipline that interests you. If there aren’t any, create your own project and we’ll help provide the resources to get you started. If you’re creating a new project, look below for resources on where/how to find a good data set. From here on out, use the resources found in the GitHub, online communities, other team members, and your own will power to power your learning experience. The success of the club relies on two components: a hardworking set of teams and valuable content. Help bring both to the table and everyone will have a more enjoyable time in their projects!
@@ -82,18 +82,28 @@ Finding a good dataset comes down to a thorough Google search! Here are two sets
 
 #### Best Places To Search For Data Sets
 https://github.com/
+
 https://github.com/awesomedata/awesome-public-datasets
+
 https://data.fivethirtyeight.com/
+
 https://registry.opendata.aws/
+
 https://cloud.google.com/bigquery/public-data/
 
 #### Examples of other places found in a 5 min google search
 https://www.data.gov/
+
 https://www.bls.gov/data/
+
 http://mlr.cs.umass.edu/ml/
+
 https://data.worldbank.org/
+
 https://www.quantopian.com/home
+
 https://datasource.kapsarc.org/explore/?sort=modified&disjunctive.theme&disjunctive.country&disjunctive.iso-region&disjunctive.keyword&disjunctive.publisher
+
 https://www.kaggle.com/datasets
 
 
