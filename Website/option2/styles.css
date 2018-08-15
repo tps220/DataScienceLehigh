@@ -1,0 +1,86 @@
+/* Import Custom Fonts */
+@font-face {
+    font-family: 'gotham-bold';
+    src: url('fonts/Gotham-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gotham-book';
+    src: url('fonts/Gotham-Book.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#page1 {
+  height: 100vh;
+  background-color: rgb(2, 21, 28);
+}
+
+#home-drawing {
+  position: fixed;
+  top: 25%;
+  width: 62.5vw;
+  margin-left: 18.75vw;
+  z-index: 1;
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: #FF8A8A;
+}
+
+.right {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: #88B6FF;
+}
+
+#home-text-container {
+  position: absolute;
+  top: 15%;
+  text-align: center;
+  width: 100%;
+}
+
+#home-text {
+  color: white !important;
+  font-family: 'Open Sans';
+  font-size: 144px;
+  opacity: 0.2;
+}
+
+#navbar-container {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  text-align: center;
+}
+
+.navtext {
+  color: white !important;
+  opacity: 0.8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#navbar-logo {
+  width: 55px;
+  height: 17px;
+}
