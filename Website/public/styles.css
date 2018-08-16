@@ -1,0 +1,158 @@
+/* Import Custom Fonts */
+@font-face {
+    font-family: 'gotham-bold';
+    src: url('fonts/Gotham-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gotham-book';
+    src: url('fonts/Gotham-Book.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#page1 {
+  height: 100vh;
+  background-color: rgb(2, 21, 28);
+  min-width: 1360px;
+}
+
+#page1-background {
+  height: 100vh;
+  z-index: 4;
+  background-image: url("images/artboard.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+#world-background {
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+}
+
+#header-content {
+  padding-top: 43.75vh;
+  padding-left: 8.5vw;
+}
+
+#data-science-header {
+  font-family: 'gotham-book';
+  font-size: 48px;
+  color: #F2F2F2;
+}
+
+#header-content-description-container {
+  margin-top: 15px;
+  width: 25vw;
+  max-width: 400px;
+}
+
+#description-header {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  color: white;
+}
+
+#lehigh-header {
+  font-family: 'gotham-book';
+  font-size: 32px;
+  color: #FF478B;
+}
+
+#nav-container {
+  margin-left: 1.5%;
+  width: 50%;
+  position: absolute;
+  top: 15px;
+}
+
+#navbar-logo {
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 82.5px;
+  height: 25.5px;
+}
+
+.navtext {
+  color: white !important;
+  opacity: 0.5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  padding-left: 10px;
+  padding-right: 25px;
+  transition: all .5s;
+  cursor: pointer;
+}
+.navtext:hover {
+  color: #555 !important;
+}
+
+.active {
+  opacity: 1.0;
+}
+
+#btn-custom {
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: #FF478B;
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  letter-spacing: 1px;
+  z-index: 10;
+  border: none;
+  transition: 1.5s;
+  outline: none;
+  cursor: pointer;
+}
+
+#btn-custom:hover {
+  background-color: white;
+  color: #FF478B;
+  transition: 1.5s;
+}
+
+/* Vertical Scrollbar */
+.vertical-menu {
+    width: 30px;
+    position: fixed;
+    left: 10px;
+    top: 47vh;
+}
+
+.vertical-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border: 1px solid white;
+  background-color: none;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active .dot {
+  background-color: white;
+}
+
+.dot:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+
+/* Page 2 */
+#page2 {
+  height: 100vh;
+  background-color: #F8F8F8;
+  min-width: 1360px;
+}
