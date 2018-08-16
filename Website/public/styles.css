@@ -14,7 +14,7 @@
 
 #page1 {
   height: 100vh;
-  background-color: rgb(2, 21, 28);
+  background-color: #000000;
   min-width: 1360px;
 }
 
@@ -59,7 +59,7 @@
 #lehigh-header {
   font-family: 'gotham-book';
   font-size: 32px;
-  color: #FF478B;
+  color: #F22F08;
 }
 
 #nav-container {
@@ -96,10 +96,10 @@
 
 #btn-custom {
   margin-top: 20px;
-  width: 150px;
+  width: 180px;
   height: 40px;
-  border-radius: 12px;
-  background-color: #FF478B;
+  border-radius: 10px;
+  background-color: #F22F08;
   color: white;
   font-family: 'Open Sans';
   font-size: 16px;
@@ -113,7 +113,7 @@
 
 #btn-custom:hover {
   background-color: white;
-  color: #FF478B;
+  color: #F22F08;
   transition: 1.5s;
 }
 
@@ -153,6 +153,50 @@
 /* Page 2 */
 #page2 {
   height: 100vh;
-  background-color: #F8F8F8;
+  background-color: #F5F5F5;
   min-width: 1360px;
+}
+
+#story-header {
+  padding-top: 25px;
+  font-size: 64px;
+  font-family: 'Open Sans';
+  text-align: center;
+  color: #181818;
+  opacity: 0.8;
+}
+
+#page2-content {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.description {
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  opacity: 0.6;
+}
+
+.transition {
+  margin-top: 40px;
+  font-size: 34px;
+  font-family: 'Open Sans';
+  opacity: 0.7;
+  text-align: center;
+}
+
+#three-aspects {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 90vw;
+  text-align: center;
+}
+
+.aspects-description {
+  font-family: 'Open Sans';
+  opacity: 0.7;
+  margin-top: 15px;
+  font-size: 18px;
 }
