@@ -21,18 +21,27 @@ Thomas Salemy
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
 </head>
 <body>
+  <section data-midnight="white">
   <div id="page1">
     <div id="page1-background">
     <div id="nav-container">
       <div class="row">
-        <div class="col-sm-2">
+        <div class="nav-left-col">
           <img src="images/logo.png" id ="navbar-logo"/>
         </div>
-        <div class="col-sm-10">
-          <a class="navtext active">HOME</a>
-          <a class="navtext">OUR STORY</a>
-          <a class="navtext">TEAM</a>
-          <a class="navtext">PROJECTS</a>
+        <div class="nav-right-col">
+          <div class="nav-right-container">
+            <a class="navtext active" id="home-nav-link">HOME</a>
+          </div>
+          <div class="nav-right-container">
+          <a class="navtext" id="story-nav-link">OUR STORY</a>
+            </div>
+          <div class="nav-right-container">
+          <a class="navtext" id="team-nav-link">TEAM</a>
+            </div>
+          <div class="nav-right-container">
+          <a class="navtext" id="projects-nav-link">PROJECTS</a>
+            </div>
         </div>
       </div>
     </div>
@@ -47,14 +56,11 @@ Thomas Salemy
     </div>
   </div>
   </div>
-  <div class="vertical-menu">
-  <a class="active"><span class="dot"></span></a>
-  <a ><span class="dot"></span></a>
-  <a ><span class="dot"></span></a>
-  <a ><span class="dot"></span></a>
-</div>
+</section>
+
+<section data-midnight="black">
 <div id="page2">
-  <h1 id="story-header">Our Story</h1>
+  <h1 class="side-extension" id="story-header" >Our Story</h1>
   <div id="page2-content">
     <p class="description">
       In the last ten years, data science has become an integral part of business. Technology companies harness proprietary data sets to tailor user experiences, construct strategic decisions, and create competitive advantages. High-performing hedge funds invest millions of dollars into trained professionals who scrape web traffic, funnel their collections into a targeted form, and then assemble financial models. Manufactures inject thousands of devices throughout their factories to track production progress, evaluate defect statistics, and identify bottlenecks more clearly. However, until recently, collecting, accessing, and analyzing data as a member of the public for career advancement, content creation, or personal enjoyment had been an overwhelming process bogged down by limited data sets, restrictive modeling techniques, and a lack of educational resources. Today, every individual with a computer, access to the internet, and a willingness to learn can tap into the potential of data science and unlock information never available before.
@@ -64,25 +70,211 @@ Thomas Salemy
     <div id="three-aspects">
       <div class="row">
         <div class="col-sm-4">
-          <i class="fa fa-bolt fa-5x" style="opacity: 0.4;"></i>
+          <i class="fa fa-bolt fa-5x" style="opacity: 0.8; color: #FDD023;"></i>
           <p class="aspects-description">
             Empowering individuals with the tools and training to explore their interests through data science
           </p>
         </div>
         <div class="col-sm-4">
-          <i class="fa fa-users fa-5x" style="opacity: 0.4;"></i>
+          <i class="fa fa-users fa-5x" style="opacity: 0.6; color: #1DA1F2;"></i>
           <p class="aspects-description">
             Providing the university community with a group of trained students to help complete data-intensive tasks, strengthening the scientific research happening across campus
           </p>
         </div>
         <div class="col-sm-4">
-          <i class="fas fa-greater-than fa-5x" style="opacity: 0.4;"></i>
+          <i class="fas fa-greater-than fa-5x" style="opacity: 0.4; color: #F22F08;"></i>
           <p class="aspects-description">
             Helping individuals distinguish themselves after graduation by developing an extremely useful skill
           </p>
         </div>
       </div>
     </div>
+    <div id="operation-container">
+    <h1 class="transition">The Operation</h1>
+    <p class="description">
+      We operate as discrete sets of teams, each working towards a common interest rather than a powerful executive board to solve challenging problems across different industries. Therefore, the club is team-oriented and has a flexible structure, and its success relies on two components: a set of hardworking teams and valuable content. In order for team members to enjoy their work–the primary goal of the club–they need valuable content. The executive team and the club's advisor have the main job to stimulate ideas to research, evaluate final presentations, and handle acceptance into the club. The directors of each department of the club are responsible for being leaders of their team, driving the technical execution of a project, and acting as a general resource for all members. The members, however, are the most important part of the club and learn through advanced project experience. After completing an on-boarding process, new members or existing members will join a team working in a discipline that interests them. If they want to create a new team or a new project, we’ll help provide them the resources to get them started. More information about the operations of the club can be found at: https://github.com/tsalemy/DataScienceLehigh
+    </p>
+    <h1 class="transition">The Outcome</h1>
+    <p class="description">
+      When a team completes a project, they exhibit their findings to the rest of the club through a presentation. The format of the presentation is a case-by-case basis; if a team decided to tackle a consulting problem, they would discuss how they collected data points, their analysis of the data set, any specific techniques used, and finally their solution for the company; if a team works with a Professor, they would talk about the Professor's goals, how they helped him/her acheive those goals, and their opinion on the project's future outcome. The members of the club, and especially the executive team, will drive a conversation about the project at hand and ask questions for the team to answer. The goal of this is to allow members to gain experience giving presentations, not only from a presenter's perspective but also from an active listener's perspective.
+    </p>
+    <h1 class="transition">Contact</h1>
+    <p class="description">
+      You can reach the club through the following platforms, or by emailing an indiviudal in the team section below
+    </p>
+    <div class="row" style="margin-top: 35px;">
+      <div class="col-sm-4">
+        <a href="mailto:datasciencelehigh@gmail.com"><i class="fas fa-envelope-open fa-4x" id="email"></i></a>
+        <p class="aspects-description-2">
+          GMail
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <a href="https://github.com/tsalemy/DataScienceLehigh"><i class="fab fa-github fa-4x" id="git"></i></a>
+        <p class="aspects-description-2">
+          GitHub
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <i class="fab fa-twitter fa-4x" id="twitter"></i>
+        <p class="aspects-description-2">
+          Coming Soon
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
+</section>
+<section data-midnight="white">
+<div id="page3">
+  <h1 id="page3-header">The Team</h1>
+  <div id="team-container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="contact-card">
+          <div class="contact-photo" style="background-image: url('images/peter-schroeter-photo.jpg');"></div>
+          <div class="contact-banner"></div>
+            <ul>
+              <li>
+                <b>Peter Schroeter</b>
+              </li>
+              <li class="contact-position">
+                Vice President
+              </li>
+            </ul>
+            <div class="social-media-banner">
+                <a href="mailto:pms220@lehigh.edu"><i class="fas fa-envelope-open fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/peter-schroeter-46b62212b/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a ><i class="fab fa-facebook fa-2x"></i></a>
+                <a ><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="contact-card">
+          <div class="contact-photo"  style="background-image: url('images/thomas-salemy-photo.jpg');"></div>
+          <div class="contact-banner"></div>
+            <ul>
+              <li>
+                Thomas Salemy
+              </li>
+              <li class="contact-position">
+                President
+              </li>
+            </ul>
+            <div class="social-media-banner">
+                <a href="mailto:tps220@lehigh.edu"><i class="fas fa-envelope-open fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/tsalemy/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a><i class="fab fa-facebook fa-2x"></i></a>
+                <a><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="contact-card">
+          <div class="contact-photo" style="background-image: url('images/sam-royce-photo.jpg');"></div>
+          <div class="contact-banner"></div>
+            <ul>
+              <li>
+                Open Position
+              </li>
+              <li class="contact-position">
+                Treasurer
+              </li>
+            </ul>
+            <div class="social-media-banner">
+                <a href="mailto:datasciencelehigh@gmail.com"><i class="fas fa-envelope-open fa-2x"></i></a>
+                <a ><i class="fab fa-linkedin fa-2x"></i></a>
+                <a ><i class="fab fa-facebook fa-2x"></i></a>
+                <a ><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="contact-card">
+          <div class="contact-photo"></div>
+          <div class="contact-banner"></div>
+            <ul>
+              <li>
+                <b>Izzy Brennan</b>
+              </li>
+              <li class="contact-position">
+                Director of Finance
+              </li>
+            </ul>
+            <div class="social-media-banner">
+                <a href="mailto:imb321@lehigh.edu"><i class="fas fa-envelope-open fa-2x"></i></a>
+                <a ><i class="fab fa-linkedin fa-2x"></i></a>
+                <a ><i class="fab fa-facebook fa-2x"></i></a>
+                <a ><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="contact-card">
+          <div class="contact-photo" style="background-image: url('images/andrew-mallett-photo.jpg');"></div>
+          <div class="contact-banner"></div>
+            <ul>
+              <li>
+                Andrew Mallett
+              </li>
+              <li class="contact-position">
+                Director of Accounting
+              </li>
+            </ul>
+            <div class="social-media-banner">
+                <a href="mailto:awm220@lehigh.edu"><i class="fas fa-envelope-open fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/andrew-mallett-18338813b/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a ><i class="fab fa-facebook fa-2x"></i></a>
+                <a ><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="contact-card">
+          <div class="contact-photo"  style="background-image: url('images/harrison-yaste-photo.jpg');"></div>
+          <div class="contact-banner"></div>
+            <ul>
+              <li>
+                Harrison Yaste
+              </li>
+              <li class="contact-position">
+                Director of Sports Research
+              </li>
+            </ul>
+            <div class="social-media-banner">
+                <a href="mailto:thy220@lehigh.edu"><i class="fas fa-envelope-open fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/harrison-yaste-18162b121/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a ><i class="fab fa-facebook fa-2x"></i></a>
+                <a ><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="contact-card">
+          <div class="contact-photo"  style="background-image: url('images/kieran-flynne-photo.png');"></div>
+          <div class="contact-banner"></div>
+            <ul>
+              <li>
+                Kieran Flynne
+              </li>
+              <li class="contact-position">
+                Director of Energy
+              </li>
+            </ul>
+            <div class="social-media-banner">
+                <a href="mailto:krf320@lehigh.edu"><i class="fas fa-envelope-open fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/kieran-flynne-30845a151/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a ><i class="fab fa-facebook fa-2x"></i></a>
+                <a ><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 </body>
 </html>
