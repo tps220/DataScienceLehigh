@@ -294,7 +294,7 @@
 /* Page 3 */
 #page3 {
   height: 100vh;
-  min-height: 1200px;
+  min-height: 1500px;
   background-color: #181818;
   background-image: url("images/lehigh-campus.jpg");
   background-size: cover;
@@ -335,6 +335,7 @@
 .contact-card:hover {
   transition: 1s;
   background-color: #181818;
+  cursor: pointer;
 }
 
 .contact-card:hover .contact-banner {
